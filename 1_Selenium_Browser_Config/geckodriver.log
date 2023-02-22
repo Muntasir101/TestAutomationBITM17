@@ -885,3 +885,5 @@ Read port: 55362
 1676470040761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileP0Tobw\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:55354/devtools/browser/5aa8f95a-cae3-4f98-8424-392d11b67158
+1676476513155	Marionette	INFO	Stopped listening on port 55362
+Dynamically enable window occlusion 1
