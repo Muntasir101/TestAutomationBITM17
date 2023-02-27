@@ -52,6 +52,6 @@ def locator():
 
     driver.close()
     print("Test Complete")
- 
+
 
 locator()
