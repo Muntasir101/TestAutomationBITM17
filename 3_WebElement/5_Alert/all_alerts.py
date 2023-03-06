@@ -23,7 +23,7 @@ def handle_alert():
 
     normal_alert = WebDriverWait(driver, 10).until(EC.alert_is_present())
 
-    # Verify JS alert open
+    # test 1: Verify that alert is open
     try:
         assert normal_alert.text == "I am a JS Alert"
         print("Test Passed.Normal Alert open.")
@@ -33,7 +33,7 @@ def handle_alert():
     # close the alert
     normal_alert.accept()  # click on OK
 
-    # test 1: Verify that alert in closed
+    # test 2: Verify that alert in closed
     try:
         alert_text = normal_alert.text
         assert False, "Test Failed.Alert still open"
